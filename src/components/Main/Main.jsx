@@ -53,6 +53,14 @@ const Main = () => {
                 <img src={assets.message_icon} alt='' />
               </div>
             </div>
+
+            <div className='mobilecard'>
+                <h3 className='headingsubcontent'>CREATE, LEARN, DISCOVER</h3>
+                <div className='mobcontent'>Bangalore Travel Guide Rule</div>
+                <div className='mobcontent'>Smartphone Accessories Online </div>
+                <div className='mobcontent'>History of Tat Group</div>
+              </div>
+
           </>
         ) : (
           <div className='result'>
