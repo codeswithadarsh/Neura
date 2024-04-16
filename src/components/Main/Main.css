@@ -107,6 +107,7 @@
     outline: none;
     padding: 8px;
     font-size: 18px;   
+    height: auto;
 }
 
 .search-box div {
@@ -195,6 +196,14 @@
     }
     .search-box div {
         gap: 5px;
+    }
+
+    .card{
+        display: none;
+    }
+
+    .main-bottom input {
+        width: 250px;
     }
 }
 

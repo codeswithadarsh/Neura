@@ -7,6 +7,7 @@ import { Context } from '../../context/Context'
 const Main = () => {
 
     const {onSent, recentPrompt, showResult, loading, resultData, setInput, input} = useContext(Context)
+    
 
   return (
     <div className='main'>  
@@ -69,7 +70,7 @@ const Main = () => {
 
         <div className="main-bottom">
             <div className="search-box">
-                <input onChange={(e) =>setInput(e.target.value)} value={input} type="text"  placeholder='Ask me anything '/>
+                <input onChange={(e) =>setInput(e.target.value)} value={input} type="text"  placeholder='Ask me anything ' data-autosize-input='{ "space": 100 }'/>
                 <div>
                     {/* <img src={assets.gallery_icon} alt="" /> */}
                     <img src={assets.mic_icon} alt="" />
